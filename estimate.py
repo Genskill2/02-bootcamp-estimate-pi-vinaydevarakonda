@@ -47,6 +47,7 @@ def monte_carlo(iterations):
     r = ((x**2)+(y**2))**0.5 
     
     if r<=1:
-      inircle = incircle+1
+      incircle = incircle+1
   pi = 4*(incircle/iterations)
   return pi
+
